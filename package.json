@@ -3,6 +3,9 @@
   "version": "1.1.1",
   "description": "React component to fit headlines and paragraphs into any element",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "clean": "rimraf lib dist",
     "build": "babel src --out-dir lib",
@@ -41,14 +44,14 @@
     "eslint-plugin-react": "^3.9.0",
     "expect": "^1.6.0",
     "mocha": "^2.2.5",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rimraf": "^2.3.4",
     "webpack": "^1.9.6",
     "webpack-dev-server": "^1.8.2"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
+    "react": "^18.2.0",
     "react-dom": "^18.0.0"
   },
   "dependencies": {
